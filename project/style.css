@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    position: absolute;
+    width: 203px;
+    left: 387px;
+    top: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.main {
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    left: 681px;
+    top: 33px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.service {
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    left: 804px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.course {
+    position: absolute;
+width: 41px;
+height: 20px;
+left: 946px;
+top: 33px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.contacts {
+    position: absolute;
+width: 80px;
+height: 20px;
+left: 1041px;
+top: 33px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.user {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1269px;
+    top: 29px;
+
+}
+.lk {
+    position: absolute;
+    width: 82px;
+    height: 32px;
+    left: 1310px;
+    top: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.maintext {
+    position: absolute;
+    width: 526px;
+    height: 282px;
+    left: 387px;
+    top: 205px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+button {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 264px;
+    height: 75px;
+    left: 387px;
+    top: 588px;
+    background: #B20D0D;
+    border-radius: 10px;
+    border: none;
+    transition: border-radius 0.3s ease-in;
+    cursor: pointer;
+
+}
+button:hover {
+    border-radius: 35px;
+}
+button:active {
+    background: #da7474;
+}
+.line1 {
+    position: absolute;
+    width: 310px;
+    height: 0px;
+    left: 805px;
+    top: 1059px;
+    border: 1px solid #FFFFFF;
+}
+.line2 {
+    position: absolute;
+    width: 310px;
+    height: 1px;
+    left: 803px;
+    top: 1145px;
+
+    border: 1px solid #FFFFFF;
+}
+.who {
+    position: absolute;
+    width: 177px;
+    height: 46px;
+    left: 877px;
+    top: 1079px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+.answer {
+    position: absolute;
+    width: 760px;
+    height: 81px;
+    left: 580px;
+    top: 1210px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
