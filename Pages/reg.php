@@ -8,14 +8,14 @@
 </head>
 <body>
     <form action="../Handler/reg.handler.php" method="POST">
-        Имя:<input type="text" name="UserName"><br>
-        Фамилия:<input type="text" name="UserLastName"><br>
-        Логин(советуем указать электронную почту или номер телефона):<input type="text" name="Login"><br>
-        Дата рождения: <input type="date" name="BirthDate"><br>
-        Пол:<br> Мужской <input type="radio" value="Male" name="Sex" id="SexChoose"><br>
-        Женский<input type="radio" name="Sex" id="SexChoose" value="Female"><br>
-        Пароль:<input type="text" name="Password"><br>
-        Повторите пароль: <input type="text"><br>
+        Имя:<input type="text" name="UserName" required><br>
+        Фамилия:<input type="text" name="UserLastName" required><br>
+        Логин(советуем указать электронную почту или номер телефона):<input type="text" name="Login" required><br>
+        Дата рождения: <input type="date" name="BirthDate" required><br>
+        Пол:<br> Мужской <input type="radio" value="Male" name="Sex" id="SexChoose" required><br>
+        Женский<input type="radio" name="Sex" id="SexChoose" value="Female" required><br>
+        Пароль:<input type="text" name="Password" required><br>
+        Повторите пароль: <input type="text" required><br>
         <input type="submit"><br>
     </form>
 </body>
