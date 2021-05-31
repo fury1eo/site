@@ -22,8 +22,8 @@ if(isset($_POST['UserName']) &&
     $Sex = "'".$_POST['Sex']."'";
     $Password = "'".$_POST['Password']."'";
     $db_query = "
-        INSERT INTO allusers(login, password)
-        VALUES (".$Login.",".$Password.")";
+        INSERT INTO allusers(login, password, authorized)
+        VALUES (".$Login.",".$Password.",'0')";
     $connect->query($db_query, $result_mode = MYSQLI_STORE_RESULT);
     //Понять что ввел пользователь в качестве логина - телефон,почту или просто придумал логин
     if (strpos($_POST['Login'], '@') !== false) {
