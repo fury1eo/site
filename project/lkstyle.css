@@ -1,0 +1,145 @@
+body {
+    background: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+header {
+    position: absolute;
+    width: 1920px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    background: #111111;
+}
+.main {
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 387px;
+    top: 22px;
+    font-size: 20px;
+    line-height: 24px;
+
+color: #FFFFFF;
+}
+.course {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 583px;
+    top: 22px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.logout {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 1465px;
+    top: 22px;
+    
+    
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF; 
+}
+.column1 {
+    position: absolute;
+    width: 5px;
+    height: 145px;
+    left: 583px;
+    top: 178px;
+
+    background: #B20D0D;
+}
+.profilename {
+    position: absolute;
+    width: 269px;
+    height: 32px;
+    left: 608px;
+    top: 178px;
+
+    font-size: 26px;
+    line-height: 32px;
+
+
+color: #FFFFFF;
+}
+.dateofbirth {
+    width: 273px;
+    height: 24px;
+    left: 608px;
+    top: 250px;
+
+    
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.sex {
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 608px;
+    top: 299px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.column2 {
+    position: absolute;
+    width: 5px;
+    height: 145px;
+    left: 1171px;
+    top: 178px;
+
+    background: #B20D0D;
+}
+.progress {
+    position: absolute;
+    width: 132px;
+    height: 32px;
+    left: 1196px;
+    top: 178px;
+
+
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+}
+.progressbar {
+    position: absolute;
+    width: 225px;
+    height: 24px;
+    left: 1196px;
+    top: 250px;
+    
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;    
+}
+.points {
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    left: 1196px;
+    top: 299px;
+    
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+       
+}
