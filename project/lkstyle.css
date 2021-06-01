@@ -71,7 +71,8 @@ color: #FFFFFF;
 
 color: #FFFFFF;
 }
-.dateofbirth {
+.dob {
+    position: absolute;
     width: 273px;
     height: 24px;
     left: 608px;
@@ -142,4 +143,12 @@ color: #FFFFFF;
     
     color: #FFFFFF;
        
+}
+.photo {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    left: 387px;
+    top: 167px;
+
 }

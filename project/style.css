@@ -91,7 +91,29 @@ color: #FFFFFF;
     line-height: 59px;
     color: #FFFFFF;
 }
-button {
+.regbut {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 234px;
+    height: 35px;
+    left: 1230px;
+    top: 25px;
+    background: #B20D0D;
+    border-radius: 10px;
+    border: none;
+    transition: border-radius 0.3s ease-in;
+    cursor: pointer;
+}
+.regbut:hover {
+    border-radius: 35px;
+}
+.regbut:active {
+    background: #da7474;
+}
+.begin {
     position: absolute;
     font-style: normal;
     font-weight: bold;
@@ -108,10 +130,10 @@ button {
     cursor: pointer;
 
 }
-button:hover {
+.begin:hover {
     border-radius: 35px;
 }
-button:active {
+.begin:active {
     background: #da7474;
 }
 .line1 {
@@ -330,4 +352,18 @@ color: #FFFFFF;
     height: 450px;
     left: 387px;
     top: 4125px;
+}
+.learnimg {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 387px;
+    top: 2525px;
+}
+.checkimg {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 1083px;
+    top: 3325px;
 }
