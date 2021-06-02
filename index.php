@@ -16,7 +16,7 @@
         alt="Фон с джентльменом"
     >
     <header>
-        <a href="index.html">
+        <a href="index.php">
             <img class="logo"
             src="img/Logo.png"
             title="Лого"
@@ -24,16 +24,24 @@
         >
         </a>
         <div class="navbar">
-            <a href="index.html"><span class="main">Главная</span></a>
+            <a href="index.php"><span class="main">Главная</span></a>
             <a href="#link"> <span class="service">О сервисе</span> </a>
             <span class="course">Курс</span>
             <span class="faq">FAQ</span>
             <!-- Кнопка должна меняться на картинку и данные пользователя!-->
-            <div>
-                <a href="registration.html">
-                <button class="regbut">Зарегистрироваться</button>
-                </a>
-            </div>
+            <?php
+            $connect = new mysqli("127.0.0.1", "root", "", "gentlemen");//Конект к бд
+            $db_query_for_auth_check ="
+            SELECT lastname , name
+            FROM userinfo 
+            WHERE login_id = (
+                SELECT login 
+                FROM allusers
+                WHERE login = 
+                )
+            ";
+          // $rez_of_query =  mysqli_fetch_array($connect->query($db_query_for_auth_check, $result_mode = MYSQLI_STORE_RESULT));
+           if (isset($rez_of_query[0]) && isset($rez_of_query[2])):?>
             <span> 
                 <img
                     class="user"
@@ -41,9 +49,17 @@
                 >
             </span>
             <div class="lk">
-                Фамилия <br>
-                Имя
+                <?php echo $rez_of_query[0]?> <br>
+                <?php echo $rez_of_query[2]?>
             </div>
+            <?php else:?>
+            <div>
+                <a href="Pages/reg.php">
+                <button class="regbut">Зарегистрироваться</button>
+                </a>
+            </div>
+            <?php endif;?>
+           
         </div>
     </header>
     <div class="maintext">
@@ -51,7 +67,7 @@
         с которым чувствуешь себя джентльменом
     </div>
     <div>
-        <a href="registration.html">
+        <a href="Pages/reg.php">
         <button class="begin"> Начать обучаться </button>
         </a>
     </div>
@@ -94,7 +110,7 @@
         >
     </span>
     <div class="footer">
-        <a href="index.html">
+        <a href="index.php">
             <img class="logo2"
             src="img/Logo2.png"
             title="Лого"
@@ -102,7 +118,7 @@
             >
         </a>
         <div class="navbar2">
-            <a href="index.html"><span class="main2">Главная</span></a>
+            <a href="index.php"><span class="main2">Главная</span></a>
             <a href="#link"><span class="service2">О сервисе</span></a>
             <span class="course2">Курс</span>
             <span class="faq2">FAQ</span>
