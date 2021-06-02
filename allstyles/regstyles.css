@@ -1,0 +1,105 @@
+body {
+    background: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF; 
+}
+.regbox {
+    position: absolute;
+    width: 421px;
+    height: 585px;
+    left: 748px;
+    top: 108px;
+    
+    background: #1D1D1D;    
+}
+.line1 {
+    position: absolute;
+    width: 5px;
+    height: 585px;
+    left: 0px;
+    top: 0px;
+    
+    background: #B20D0D;
+}
+.line2 {
+    position: absolute;
+    width: 5px;
+    height: 585px;
+    left: 100%;
+    top: 0px;
+    
+    background: #B20D0D;
+}
+.regword {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 203px;
+    height: 37px;
+    left:113px;
+    top: 3px;
+    margin-top: 17px;
+    font-size: 30px;
+    line-height: 37px;  
+}
+input {
+    font-family: Montserrat;
+    position: relative;
+    width: 274px;
+    height: 40px;
+    left: 72px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.sexradio {
+    left: 0px;
+    width: 40px;
+    height: 10px;
+    transform:scale(2.3);
+    opacity:0.5;
+    cursor:pointer;
+}
+.pol {
+    position: relative;
+    width: 274px;
+    height: 40px;
+    left: 72px;
+}
+.woman {
+    position: relative;
+    width: 274px;
+    height: 40px;
+    left: 112px;
+}
+.button {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: relative;
+    width: 174px;
+    height: 40px;
+    left: 122px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background: #B20D0D;
+    border-radius: 10px;
+    border: none;
+    transition: border-radius 0.3s ease-in;
+    cursor: pointer;
+
+}
+.button:hover {
+    border-radius: 35px;
+}
+.button:active {
+    background: #da7474;
+}
