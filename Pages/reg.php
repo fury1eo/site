@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script src="../jQuery.js"></script>
+    <script type="text/javascript" src="../Handler/reg.checker.js">
 </head>
 <body>
     <div class="regbox">
