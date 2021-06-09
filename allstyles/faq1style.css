@@ -1,0 +1,84 @@
+body {
+    background: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+header {
+    position: absolute;
+    width: 1900px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    background: #111111;
+}
+.main {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 387px;
+    top: 22px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.course {
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 583px;
+    top: 22px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.listofq {
+    position: absolute;
+    width: 321px;
+    height: 24px;
+    left: 387px;
+    top: 351px;
+    
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.questions {
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-weight: 500;
+}
+.redline {
+    position: absolute;
+    width: 7px;
+    height: 1395px;
+    left: 734px;
+    top: 303px;
+    
+    background: #B20D0D;
+}
+.text {
+    position: absolute;
+    width: 754px;
+    height: 1128px;
+    left: 779px;
+    top: 351px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.next {
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    left: 779px;
+    top: 1535px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px
+}

@@ -25,7 +25,7 @@
         </a>
         <div class="navbar">
             <a href="index.php"><span class="main">Главная</span></a>
-            <a href="#link"> <span class="service">О сервисе</span> </a>
+            <a href="../Pages/about.php"> <span class="service">О сервисе</span> </a>
             <span class="course">Курс</span>
             <span class="faq">FAQ</span>
             <!-- Кнопка должна меняться на картинку и данные пользователя!-->
