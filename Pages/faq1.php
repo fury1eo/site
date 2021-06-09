@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Allstyles/faq1style.css">
+    <link rel="stylesheet" href="../allstyles/faq1style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>FAQ</title>
@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="navbar">
-        <a href="profile.html"><span class="main">Личный кабинет</span></a>
-        <a href="index.html"><span class="course">Главная</span></a>
+        <a href="profile.php"><span class="main">Личный кабинет</span></a>
+        <a href="../index.php"><span class="course">Главная</span></a>
         </div>
     </header>
     <div class="listofq">

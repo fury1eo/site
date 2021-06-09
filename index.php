@@ -25,9 +25,9 @@
         </a>
         <div class="navbar">
             <a href="index.php"><span class="main">Главная</span></a>
-            <a href="../Pages/about.php"> <span class="service">О сервисе</span> </a>
-            <span class="course">Курс</span>
-            <span class="faq">FAQ</span>
+            <a href="Pages/about.php"> <span class="service">О сервисе</span> </a>
+            <a href="Pages/courses.php"><span class="course">Курс</span></a>
+            <a href="Pages/faq1.php"><span class="faq">FAQ</span></a>
             <!-- Кнопка должна меняться на картинку и данные пользователя!-->
             <?php
             $connect = new mysqli("127.0.0.1", "root", "", "gentlemen");//Конект к бд
