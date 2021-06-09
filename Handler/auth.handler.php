@@ -8,6 +8,8 @@ $db_query_for_auth_Login = "
 $connect = new mysqli("127.0.0.1", "root", "", "gentlemen");//Коннект к бд , вероятнее всего опасно оставлять всё на стандартных настройках
     $res_query_login = mysqli_fetch_array($connect->query($db_query_for_auth_Login, $result_mode = MYSQLI_STORE_RESULT));//Спросить у бд есть ли такой логин, если есть, то добавить в массив
 //почему-то записывается 2 раза одинаковое значение по разным ключам, поэтому просто берём первый элемент
+    echo $res_query_login['0']."<br>"; 
+    echo $_POST['UserLogin'];
 if ($res_query_login['0'] == $_POST['UserLogin']) {
     $db_query_for_auth_Password = "
     SELECT password
@@ -20,7 +22,7 @@ if ($res_query_login['0'] == $_POST['UserLogin']) {
         SET authorized = '1'
         WHERE login = ".$Login;//Запрос на то, чтобы пользователь был авторизорован
         if($connect->query($db_query_for_auth, $result_mode)){
-            header('Location:../index.html');//если всё правильно, то отправляем на основную страницу
+            header('Location:../index.php');//если всё правильно, то отправляем на основную страницу
         }
         else{
             echo "ошибка";
