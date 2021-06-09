@@ -10,6 +10,9 @@
     <title>Джентльмены</title>
 </head>
 <body>
+    <?php
+    echo $_COOKIE['login'];
+    ?>
     <img
         class="font"
         src="img/main_bg.jpg"
@@ -30,6 +33,7 @@
             <a href="Pages/faq1.php"><span class="faq">FAQ</span></a>
             <!-- Кнопка должна меняться на картинку и данные пользователя!-->
             <?php
+            $Login = "'".$_COOKIE['login']."'";
             $connect = new mysqli("127.0.0.1", "root", "", "gentlemen");//Конект к бд
             $db_query_for_auth_check ="
             SELECT lastname , name
@@ -37,7 +41,7 @@
             WHERE login_id = (
                 SELECT login 
                 FROM allusers
-                WHERE login = 
+                WHERE login = .$Login.
                 )
             ";
           // $rez_of_query =  mysqli_fetch_array($connect->query($db_query_for_auth_check, $result_mode = MYSQLI_STORE_RESULT));

@@ -15,6 +15,7 @@ if(isset($_POST['UserName']) &&
         printf("Не удалось подключиться: %s\n", $connect->connect_error);
         exit();
     }
+    setcookie(login,"".$_POST['Login']."");
     $Name = "'".$_POST['UserName']."'";
     $LastName = "'".$_POST['UserLastName']."'";
     $Login = "'".$_POST['Login']."'";
