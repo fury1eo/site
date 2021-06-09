@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Allstyles/lkstyle.css">
+    <link rel="stylesheet" href="../Allstyles/lkstyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Личный кабинет</title>
@@ -12,14 +12,14 @@
 <body>
     <header>
         <div class="navbar">
-        <a href="index.html"><span class="main">Главная</span></a>
+        <a href="../index.php"><span class="main">Главная</span></a>
             <span class="course">Курсы</span>
             <span class="logout">Выйти</span>
         </div>
         <div class="profile">
             <div class="photo">
                 <img
-                    src="Photo.png"
+                    src="../img/Photo.png"
                 >
             </div>
             <div class="column1">
